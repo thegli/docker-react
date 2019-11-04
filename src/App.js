@@ -10,6 +10,9 @@ function App() {
         <p>
           Dude, you should <i>REALLY</i> edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+          That is some pointless feature :-)
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
