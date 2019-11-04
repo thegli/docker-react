@@ -7,6 +7,8 @@ COPY . .
 RUN npm run build
 
 FROM nginx
+# important for AWS Elastic Beanstalk
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
 # default of image
 # CMD ["ngnix"]
