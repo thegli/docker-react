@@ -13,6 +13,9 @@ function App() {
         <p>
           That is some pointless feature :-)
         </p>
+        <p>
+          Added this to test GitHub's super-linter
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
